@@ -1,0 +1,220 @@
+[
+  {
+    "type": "directive",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "instruction",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "immediate",
+          "named": true
+        },
+        {
+          "type": "label_ref",
+          "named": true
+        },
+        {
+          "type": "memory",
+          "named": true
+        },
+        {
+          "type": "mnemonic",
+          "named": true
+        },
+        {
+          "type": "register",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "label",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "label_ref",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "register",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "source_file",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "comment",
+          "named": true
+        },
+        {
+          "type": "directive",
+          "named": true
+        },
+        {
+          "type": "instruction",
+          "named": true
+        },
+        {
+          "type": "label",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": ",",
+    "named": false
+  },
+  {
+    "type": ".",
+    "named": false
+  },
+  {
+    "type": ":",
+    "named": false
+  },
+  {
+    "type": "ah",
+    "named": false
+  },
+  {
+    "type": "al",
+    "named": false
+  },
+  {
+    "type": "ax",
+    "named": false
+  },
+  {
+    "type": "bh",
+    "named": false
+  },
+  {
+    "type": "bl",
+    "named": false
+  },
+  {
+    "type": "bx",
+    "named": false
+  },
+  {
+    "type": "ch",
+    "named": false
+  },
+  {
+    "type": "cl",
+    "named": false
+  },
+  {
+    "type": "comment",
+    "named": true
+  },
+  {
+    "type": "cx",
+    "named": false
+  },
+  {
+    "type": "dh",
+    "named": false
+  },
+  {
+    "type": "dl",
+    "named": false
+  },
+  {
+    "type": "dx",
+    "named": false
+  },
+  {
+    "type": "eax",
+    "named": false
+  },
+  {
+    "type": "ebp",
+    "named": false
+  },
+  {
+    "type": "ebx",
+    "named": false
+  },
+  {
+    "type": "ecx",
+    "named": false
+  },
+  {
+    "type": "edi",
+    "named": false
+  },
+  {
+    "type": "edx",
+    "named": false
+  },
+  {
+    "type": "esi",
+    "named": false
+  },
+  {
+    "type": "esp",
+    "named": false
+  },
+  {
+    "type": "immediate",
+    "named": true
+  },
+  {
+    "type": "memory",
+    "named": true
+  },
+  {
+    "type": "mnemonic",
+    "named": true
+  },
+  {
+    "type": "r10",
+    "named": false
+  },
+  {
+    "type": "r11",
+    "named": false
+  },
+  {
+    "type": "r12",
+    "named": false
+  },
+  {
+    "type": "r13",
+    "named": false
+  },
+  {
+    "type": "r14",
+    "named": false
+  },
+  {
+    "type": "r15",
+    "named": false
+  },
+  {
+    "type": "r8",
+    "named": false
+  },
+  {
+    "type": "r9",
+    "named": false
+  }
+]

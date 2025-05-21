@@ -1,0 +1,15 @@
+{
+  "name": "tree-sitter-nasm",
+  "version": "0.1.0",
+  "description": "Tree-sitter grammar for NASM x86 Assembly",
+  "main": "grammar.js",
+  "scripts": {
+    "generate": "tree-sitter generate"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.20.0"
+  },
+  "keywords": ["tree-sitter", "nasm", "x86", "assembly"],
+  "author": "you",
+  "license": "MIT"
+}
